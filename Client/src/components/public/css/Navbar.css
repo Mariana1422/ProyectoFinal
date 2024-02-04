@@ -1,0 +1,110 @@
+body {
+  font-family: Gowun Batang, serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #aaaaaa;
+  padding: 10px 40px;
+}
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  justify-content: space-between;
+}
+.navbar-menu li a {
+  color: #333;
+  text-decoration:none;
+  margin-left: 15px;
+  margin-right: 10px;
+
+}
+
+
+
+
+.second-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+}
+.second-navbar li a {
+  text-decoration: none;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  display: inline-block;
+  
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.search-container {
+  position: relative;
+}
+.search-icon {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-50%);
+  left: 10px; 
+}
+.search-input {
+  padding: 5px 25px 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.search-container {
+  position: relative; 
+}
+.search-input {
+  padding-left: 30px; 
+  width: 100px;
+}
+.favorite-icon,
+.shopping-icon {
+  font-size: 20px; 
+  margin-left: 10px;
+  color: black;
+}
+.search-container {
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    text-align: center;
+  }
+  .navbar-menu li {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+  }
+  .second-navbar {
+    flex-direction: column;
+  }
+  .nav-right {
+    margin-top: 10px; 
+  }
+}
